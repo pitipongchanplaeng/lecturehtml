@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- From Tag (block tag) -->
+    <!-- Details ของ Form เป็น Inline Tag -->
+    <!-- get และ post put delete patch -->
+    <form action="" method="" enctype="multipart/form-data">
+      <labe>ป้อนข้อความ</labe>
+      <input type="text" name="" id="" placeholder="ชื่อ" />
+      <br /><br /><br />
+      <label>ป้อนตัวเลข</label>
+      <input type="number" name="" id="" placeholder="อายุ" />
+      <br /><br /><br />
+      <label>ป้อนอีเมล</label>
+      <input type="email" name="" id="" placeholder="อีเมล" />
+      <br /><br /><br />
+      <label>ป้อนข้อมูลเยอะ</label>
+      <textarea name="" id="" placeholder="รายละเอียด"></textarea>
+      <br /><br /><br />
+      <label>เลือกได้ 1 อย่าง radio</label>
+      <input type="radio" name="gender" id="" value="male" />ชาย
+      <input type="radio" name="gender" id="" value="female" />หญิง
+      <input type="radio" name="gender" id="" value="LGBTQ+" />อื่นๆ
+      <br /><br /><br />
+      <label>เลือกได้ 1 อย่าง select</label>
+      <select name="" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <br /><br /><br />
+      <label>เลือกได้มากกว่า 1 อย่าง หรือไม่เลือกก็ได้</label>
+      <input type="checkbox" name="" id="" value="KFC" />KFC
+      <input type="checkbox" name="" id="" value="Pizza" />Pizza
+      <input type="checkbox" name="" id="" value="Burger" />Burger
+      <input type="checkbox" name="" id="" value="Noodle" />Noodle
+      <br /><br /><br />
+      <label>เลือกไฟล์</label><br />
+      <input type="file" name="" id="" accept="image/*" /><br />
+      <input type="file" name="" id="" accept="video/*" /><br />
+      <input type="file" name="" id="" accept="audio/*" /><br />
+      <input type="file" name="" id="" accept="application/*" /><br />
+      <input type="file" name="" id="" accept="docx, exls, pptx" /><br />
+      <br /><br /><br />
+      <label>เลือกวันและเวลา</label>
+      <input type="datetime-local" name="" id="" />
+
+      <br /><br /><br />
+      <!-- ประเภทปุ่ม" -->
+      <!-- เอาข้อมูลที่เลือกไปประมวลผล -->
+      <input type="submit" value="ตกลง" /><br />
+      <!-- ล้างข้อมูลที่เลือก -->
+      <input type="reset" value="ยกเลิก" /><br />
+      <!-- แล้วแต่ -->
+      <button>ตกลง</button>
+      <button>ยกเลิก</button>
+      <button>แล้วแต่เลย</button>
+      <!-- input ประเภทข้อมูลที่ซ่อนเอาไว้ไม่เห็นบน Form -->
+      <!-- เหมาะสำหรับข้อมูลที่ต้องส่งไปประมวลผล แต่ไม่ต้องการแสดงหรือให้เลือก -->
+      <input type="hidden" name="stu-status" value="น.ศ.ปกติ" />
+      <br /><br /><br />
+    </form>
+  </body>
+</html>
