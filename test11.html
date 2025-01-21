@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- table tag (BLOCK TAG) -->
+    <!-- basic table -->
+    <table border="1" width="500px">
+      <tr>
+        <td>AA</td>
+        <td>BB</td>
+        <td>CC</td>
+        <td>DD</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>22</td>
+        <td>33</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>EE</td>
+        <td>FF</td>
+        <td>GG</td>
+        <td>HH</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <!-- table แบบที่ 2 โดยที่เซลล์ใน table ไม่เท่ากัน -->
+    <table border="1" width="500px">
+      <tr>
+        <td colspan="2">AA</td>
+        <td>BB</td>
+        <td>CC</td>
+        <td>DD</td>
+      </tr>
+      <tr>
+        <td>EE</td>
+        <td colspan="2" rowspan="2">FF</td>
+        <td colspan="2">GG</td>
+      </tr>
+      <tr>
+        <td>HH</td>
+        <td rowspan="2">II</td>
+        <td>JJ</td>
+      </tr>
+      <tr>
+        <td colspan="2">KK</td>
+        <td>LL</td>
+        <td>MM</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <!-- table แบบที่ 3 แบบมีการกำหนดหัวตาราง -->
+    <!-- หัวตารางแนวตั้ง -->
+    <table border="1" width="500px">
+      <th>No.</th>
+      <th>Fullname</th>
+      <th>Age</th>
+      <th>branch</th>
+      <tr>
+        <td>1</td>
+        <td>beampra</td>
+        <td>20</td>
+        <td>IOT</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>beampra</td>
+        <td>20</td>
+        <td>IT</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>beampra</td>
+        <td>20</td>
+        <td>DTI</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <!-- หัวตารางแนวนอน -->
+    <table border="1" width="500px">
+      <tr>
+        <th>No.</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <th>Fullname</th>
+        <td>beampra</td>
+        <td>a</td>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>21</td>
+        <td>20</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <th>Branch</th>
+        <td>IOT</td>
+        <td>IT</td>
+        <td>DTI</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <!-- table แบบที่ 4 แบบมีการแบ่งส่วนของตาราง -->
+    <table border="1" width="500px">
+      <caption style="padding-bottom: 15px">
+        รายการซื้อสินค้า
+      </caption>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>รายการ</th>
+          <th>ราคา</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">1</td>
+          <td>กาแฟ</td>
+          <td style="text-align: right; padding-right: 30px">50</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">2</td>
+          <td>ชา</td>
+          <td style="text-align: right; padding-right: 30px">60</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">3</td>
+          <td>นม</td>
+          <td style="text-align: right; padding-right: 30px">70</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2" style="text-align: center; padding-right: 30px">
+            รวม
+          </th>
+          <td style="text-align: right; padding-right: 30px">180</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br /><br /><br />
+  </body>
+</html>
